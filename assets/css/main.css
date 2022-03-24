@@ -24,8 +24,6 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	background-image: url("../../images/buho.png");
-	background-size: cover;
 }
 
 article, aside, details, figcaption, figure,
