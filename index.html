@@ -9,6 +9,7 @@
 		<title>El Eco de Teyvat</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="./images/Proto.png" type="image/png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -29,13 +30,9 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Inicio</a></li>
-							<li><a href="landing.html">Versión Actual</a></li>
-							<li><a href="generic.html">Novedades por Venir</a></li>
-							<li><a href="elements.html">Curiosidades y Guías</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="index.html#one">Versión Actual</a></li>
+							<li><a href="index.html#two">Novedades por Venir</a></li>
+							<li><a href="index.html#three">Curiosidades y Guías</a></li>
 						</ul>
 					</nav>
 
@@ -47,9 +44,6 @@
 							</header>
 							<div class="content">
 								<p>Bienvenido al Eco de Teyvat, aquí encontrarás noticias de Genshin Impact y más.</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Get Started</a></li>
-								</ul>
 							</div>
 						</div>
 					</section>
@@ -59,12 +53,18 @@
 
 						<!-- One -->
 							<section id="one" class="tiles">
+								<div class="inner">
+									<header class="major">
+										<h2>Versión Actual</h2>
+									</header>
+								</div>
+								<br>
 								<article>
 									<span class="image">
 										<img src="images/EventoEnkanomiya_800.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Ritual de Entrada de los Tres Mundos</a></h3>
+										<h3><a href="enkanomiya.html" class="link">Ritual de Entrada de los Tres Mundos</a></h3>
 										<p>Evento actual en la región subterránea de Enkanomiya.</p>
 									</header>
 								</article>
@@ -73,16 +73,26 @@
 										<img src="images/2.5_banners_800.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Banners y Eventos</a></h3>
+										<h3><a href="banners.html" class="link">Banners y Eventos</a></h3>
 										<p>La Suma Sacerdotisa de Narukami se une a la aventura.</p>
 									</header>
 								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="tiles">
+								<div class="inner">
+									<header class="major">
+										<h2>Novedades por Venir</h2>
+									</header>
+								</div>
+								<br>
 								<article>
 									<span class="image">
 										<img src="images/Ayato_800.png" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Kamisato Ayato</a></h3>
+										<h3><a href="ayato.html" class="link">Kamisato Ayato</a></h3>
 										<p>El líder del clan Kamisato amenaza con unirse a la galería de personajes.</p>
 									</header>
 								</article>
@@ -91,10 +101,21 @@
 										<img src="images/SimaFondo_800.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">La Sima</a></h3>
+										<h3><a href="sima.html" class="link">La Sima</a></h3>
 										<p>La gran mina abandonada de Liyue pronto será explorable.</p>
 									</header>
 								</article>
+							</section>
+
+
+							<!-- Three -->
+							<section id="three" class="tiles">
+								<div class="inner">
+									<header class="major">
+										<h2>Curiosidades y Guías</h2>
+									</header>
+								</div>
+								<br>
 								<article>
 									<span class="image">
 										<img src="images/Tartaglia_800.jpg" alt="" />
@@ -113,19 +134,6 @@
 										<p>Una pequeña guía para conseguir la lanza de Espinadragón.</p>
 									</header>
 								</article>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
 							</section>
 
 					</div>
@@ -184,18 +192,11 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<footer id="footer" style="text-align: center;">
 						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
+							<p>Alumno: Rubén Pedrote Carrasco</p>
+							<p>Asignatura: Lenguajes de marcas</p>
+							<p>Curso: 2021-2022</p>
 						</div>
 					</footer>
 

@@ -26,6 +26,16 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+section#banner.major{
+	background-repeat: no-repeat;
+	background-image: url("../../images/GenshinFondo2.jpg");
+}
+
+section#banner.style2{
+	background-repeat: no-repeat;
+	background-image: url("../../images/EventoEnkanomiya_800.jpg");
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -3268,7 +3278,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #81acec;
 			}
 
 			#header.alt.style4 .logo strong {
@@ -3500,7 +3510,7 @@ input, select, textarea {
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #81acec;
 		}
 
 		#banner.style4:after {
