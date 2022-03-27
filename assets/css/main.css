@@ -36,6 +36,11 @@ section#banner.style2{
 	background-image: url("../../images/EventoEnkanomiya_800.jpg");
 }
 
+section#banner.style3{
+	background-repeat: no-repeat;
+	background-image: url("../../images/2.5_banners_800.jpg");
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
