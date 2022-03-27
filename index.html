@@ -33,6 +33,7 @@
 							<li><a href="index.html#one">Versión Actual</a></li>
 							<li><a href="index.html#two">Novedades por Venir</a></li>
 							<li><a href="index.html#three">Curiosidades y Guías</a></li>
+							<li><a href="index.html#contact">Formulario</a></li>
 						</ul>
 					</nav>
 
@@ -142,51 +143,97 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
+								<form name="formulario" method="post" action="mailto:sindogamer120@gmail.com">
+									<fieldset>
+										<br>
+										<legend>Datos Personales</legend>
+						
+										<label for="nombre">Introduce tu nombre completo: </label>
+										<input type="text" name="nombre" id="nombre"> <br>
+										<br>
+						
+										<label for="contraseña">Introduce una contraseña: </label>
+										<input type="password" name="contraseña" id="contraseña"> <br>
+										<br>
+						
+										<label for="edad">Introduce tu edad: </label>
+										<input type="number" name="edad" id="edad" value="18" min="18" style="color: black;"> <br>
+										<br>
+						
+										<label for="fec_nac">Introduce tu fecha de nacimiento: </label>
+										<input type="date" name="fec_nac" id="fec_nac"> <br>
+										<br>
+						
+										<label for="tlfno">Introduce tu número de teléfono: </label>
+										<input type="tel" name="tlfno" id="tlfno" value="+34"> <br>
+										<br>
+						
+										<label for="correo">Introduce tu correo electrónico: </label>
+										<input type="email" name="correo" id="correo"> <br>
+										<br>
+						
+										<label for="server">Desde qué servidor nos estás visitando: </label>
+										<select name="server" id="server">
+											<option value="Europa">Europa</option>
+											<option value="Asia">Asia</option>
+											<option value="América">América</option>
+										</select>
+									</fieldset>
+						
+									<br>
+									<br>
+									<fieldset>
+										<legend>Otros</legend>
+						
+										
+										<label for="nunca">¿Conoces Genshin Impact? :</label> <br>
+						
+										<input type="radio" name="conoces" id="nunca" value="nunca">
+										<label for="nunca">Nunca había oído hablar de Genshin Impact.</label> <br>
+						
+										<input type="radio" name="conoces" id="algo" value="algo">
+										<label for="algo">He oído o visto algo alguna que otra vez.</label> <br>
+						
+										<input type="radio" name="conoces" id="conozco" value="conozco">
+										<label for="conozco">Conozco Genshin Impact.</label> <br>
+										<br>
+						
+						
+						
+										<label for="no">En caso de que juegues, marca las opciones que tengas: </label> <br>
+						
+										<input type="checkbox" name="p5" id="p5" value="p5"> 
+										<label for="p5">1 o más personajes 5 estrellas.</label> <br>
+						
+										<input type="checkbox" name="a5" id="a5" value="a5"> 
+										<label for="a5">1 o más armas 5 estrellas.</label> <br>
+						
+										<input type="checkbox" name="no" id="no"> 
+										<label for="no">No tengo personajes ni armas 5 estrellas</label> <br>
+										<br>
+						
+						
+						
+										<label for="color">Elija un color para su fondo de perfil: </label>
+										<input type="color" name="color" id="color"> <br>
+										<br>
+						
+										<label for="satisfecho">Del 0 al 10, ¿qué tan satisfecho está con el formulario?: </label>
+										<input type="range" name="satisfecho" id="satisfecho" min="0" max="10" step="1"> <br>
+										<br>
+						
+										<label for="mensaje">Puedes escribir un comentario si lo deseas: </label> <br>
+										<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aquí..."></textarea>
+									</fieldset>
+						
+						
+						
+									
+									<br>
+									<button type="submit" value="enviar" name="enviar" id="enviar">Enviar Datos</button>
+									<button type="reset" value="reset" name="reset" id="reset">Resetear Datos</button>
+									<br>
 								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
 							</section>
 						</div>
 					</section>

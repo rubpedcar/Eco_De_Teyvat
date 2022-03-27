@@ -26,6 +26,10 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.texto{
+	text-align: left;
+}
+
 section#banner.major{
 	background-repeat: no-repeat;
 	background-image: url("../../images/GenshinFondo2.jpg");
