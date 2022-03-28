@@ -35,16 +35,6 @@ section#banner.major{
 	background-image: url("../../images/GenshinFondo2.jpg");
 }
 
-section#banner.style2{
-	background-repeat: no-repeat;
-	background-image: url("../../images/EventoEnkanomiya_800.jpg");
-}
-
-section#banner.style3{
-	background-repeat: no-repeat;
-	background-image: url("../../images/2.5_banners_800.jpg");
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2860,11 +2850,11 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #8d82c4;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #8ea9e8;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
